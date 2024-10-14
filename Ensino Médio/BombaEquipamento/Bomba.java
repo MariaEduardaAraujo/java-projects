@@ -1,7 +1,10 @@
 package BombaEquipamento; 
 public class Bomba extends Equipamento {
+	@SuppressWarnings("unused")
 	private double pressaoSuccao;
+	@SuppressWarnings("unused")
 	private double pressaoDescarga;
+	@SuppressWarnings("unused")
 	private int taxaFluxo;
 	
 	public Bomba (String nome, String fabricante, double custo, double pressaoSuccao, double pressaoDescarga, int taxaFluxo){

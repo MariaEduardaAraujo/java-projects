@@ -1,5 +1,7 @@
 public class Musica {
+	@SuppressWarnings("unused")
 	private String ritmo, genero;
+	@SuppressWarnings("unused")
 	private char tom;
 	private boolean acustica, instrumentos;
 	

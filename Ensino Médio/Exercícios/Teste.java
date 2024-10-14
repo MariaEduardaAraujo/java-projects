@@ -1,5 +1,6 @@
 package Exercícios;
 public class Teste {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {	
 		System.out.print("Java é top.");
 		System.out.println(" Nome, " + "Idade");

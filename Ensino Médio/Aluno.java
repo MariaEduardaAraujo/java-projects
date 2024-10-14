@@ -1,9 +1,10 @@
 import java.util.*;
-import java.util.stream.IntStream;
+//import java.util.stream.IntStream;
 import java.util.Random;
 
 public class Aluno {
-    public static void main(String args[]) {
+    @SuppressWarnings({ "resource", "unused" })
+	public static void main(String args[]) {
       Scanner cad = new Scanner(System.in);
       Random num = new Random();
       

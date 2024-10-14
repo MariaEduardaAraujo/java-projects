@@ -6,8 +6,11 @@
 
 package LaCasadePapel; 
 public class Professor {
+	@SuppressWarnings("unused")
 	private String apelido;
+	@SuppressWarnings("unused")
 	private char sexo;
+	@SuppressWarnings("unused")
 	private boolean persuasao;
 	
 	public void planejaRoubo() {

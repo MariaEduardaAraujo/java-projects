@@ -1,5 +1,7 @@
 public class Documento {
+	@SuppressWarnings("unused")
 	private boolean escrito, amassado, importante, arquivado;
+	@SuppressWarnings("unused")
 	private String data;
 	
 	public Documento(boolean escrito, boolean amassado, boolean arquivado) {

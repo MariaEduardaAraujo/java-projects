@@ -7,6 +7,7 @@ import java.util.Scanner;
 **/
 
 public class EletronicosProva {
+	@SuppressWarnings({ "unused", "resource" })
 	public static void main(String[] args) {
 		String cod, nome, perg2;
 		int perg;

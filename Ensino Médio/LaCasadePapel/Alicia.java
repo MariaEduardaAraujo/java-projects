@@ -6,9 +6,13 @@
 
 package LaCasadePapel; 
 public class Alicia {
+	@SuppressWarnings("unused")
 	private String nome;
+	@SuppressWarnings("unused")
 	private char sexo;
+	@SuppressWarnings("unused")
 	private boolean temArma;
+	@SuppressWarnings("unused")
 	private String numeroDistintivo;
 	
 	public void investiga(String suspeito) {

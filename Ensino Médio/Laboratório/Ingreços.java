@@ -8,6 +8,7 @@ import java.util.Scanner;
  **/
 
 public class Ingreços{
+	@SuppressWarnings({ "unused", "resource" })
 	public static void main(String[] args) {
 		int idade, qtdIngresso, qtdMeia;
 		double total = 0;

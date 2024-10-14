@@ -1,6 +1,8 @@
 public class Amigo {
 	private boolean verdadeiro, gostar;
+	@SuppressWarnings("unused")
 	private int idade;
+	@SuppressWarnings("unused")
 	private String classe, perto; 
 	
 	public Amigo (boolean verdadeiro, int idade, String perto) {

@@ -1,8 +1,11 @@
 public class Cidade {
 	
 	private boolean capital;
+	@SuppressWarnings("unused")
 	private double pib;
-	private String nome;
+	@SuppressWarnings("unused")
+    private String nome;
+	@SuppressWarnings("unused")
 	private int idade, qhabitantes;
 	
 	public Cidade (boolean capital, double pib, int qhabitantes) {

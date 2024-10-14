@@ -2,7 +2,9 @@ package Academia;
 import java.util.*;
 import java.util.stream.IntStream;
 
+@SuppressWarnings("unused")
 public class Xaxa {
+    @SuppressWarnings("resource")
     public static void main(String args[]) {
       Scanner cad = new Scanner(System.in);
 

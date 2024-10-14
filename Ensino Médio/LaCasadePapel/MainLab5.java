@@ -1,6 +1,7 @@
 package LaCasadePapel;
 
 public class MainLab5 {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Professor p1 = new Professor("Professor", 'M', true);
 		Toquio t1 = new Toquio("T�quio", 'F', false, true);

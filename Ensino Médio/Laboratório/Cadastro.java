@@ -8,6 +8,7 @@ import java.util.Scanner;
  * 
  */
 public class Cadastro{
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		
 		String nome, sobrenome, usuario, senha;

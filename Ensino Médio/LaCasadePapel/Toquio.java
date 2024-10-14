@@ -7,8 +7,11 @@
 package LaCasadePapel; 
 public class Toquio extends Professor{
 
+	@SuppressWarnings("unused")
 	private char sexo;
+	@SuppressWarnings("unused")
 	private boolean temArma;
+	@SuppressWarnings("unused")
 	private String apelido;
 	
 	public void rouba() {

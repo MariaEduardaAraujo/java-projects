@@ -2,6 +2,7 @@ package Exercícios;
 import java.util.Scanner;
 
 public class Teste2 {
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		String nome;
 		int idade;

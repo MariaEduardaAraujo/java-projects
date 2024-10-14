@@ -1,6 +1,7 @@
 package VIP;
 
 public class MainIngresso {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Ingresso ing1 = new Ingresso(30);
 		VIP ing2 = new VIP(30, 100);

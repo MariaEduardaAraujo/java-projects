@@ -1,10 +1,11 @@
 package Academia;
 import java.util.*;
-import java.util.stream.IntStream;
+//import java.util.stream.IntStream;
 import java.util.Random;
 
 public class Xaxa2 {
-    public static void main(String args[]) {
+    @SuppressWarnings("resource")
+	public static void main(String args[]) {
       Scanner cad = new Scanner(System.in);
       Random num = new Random();
       

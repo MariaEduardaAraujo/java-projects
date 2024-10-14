@@ -6,8 +6,11 @@
 
 package LaCasadePapel; 
 public class Arturo extends Alicia {
+	@SuppressWarnings("unused")
 	private String nome;
+	@SuppressWarnings("unused")
 	private char sexo;
+	@SuppressWarnings("unused")
 	private double valorDeResgate;
 	
 	public boolean roubaArma() {

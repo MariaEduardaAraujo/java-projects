@@ -1,7 +1,10 @@
 public class Casa {
 	private boolean limpa; 
+	@SuppressWarnings("unused")
 	private String cor;
+	@SuppressWarnings("unused")
 	private double tamanho;
+	@SuppressWarnings("unused")
 	private int numero, moradores;
 	
 	public Casa (boolean limpa, String cor, double tamanho, int numero, int moradores) {

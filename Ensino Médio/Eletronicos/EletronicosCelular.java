@@ -1,6 +1,7 @@
 package Eletronicos;
 public class EletronicosCelular extends Eletronicos {
 	private double preco;
+	@SuppressWarnings("unused")
 	private String geracao;
 	
 	public EletronicosCelular(boolean componentes, String nome, double preco, String geracao) {

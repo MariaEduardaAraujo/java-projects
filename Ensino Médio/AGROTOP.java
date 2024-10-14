@@ -1,7 +1,8 @@
 import java.util.*;
-import java.util.stream.IntStream;
+//import java.util.stream.IntStream;
 
 public class AGROTOP {
+	@SuppressWarnings({ "resource", "unused" })
 	public static void main(String[] args) {
 		int sum = 0;
 		Scanner sc = new Scanner(System.in);

@@ -1,5 +1,7 @@
 public class Prova {
+	@SuppressWarnings("unused")
 	private String disciplina, tipo;
+	@SuppressWarnings("unused")
 	private int qtdQuest, nota, valorTotal;
 	
 	public Prova(int qtdQuest, int nota, String disciplina) {

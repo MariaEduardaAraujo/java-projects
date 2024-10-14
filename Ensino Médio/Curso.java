@@ -1,6 +1,8 @@
 public class Curso {
+	@SuppressWarnings("unused")
 	private String tipo, local;
 	private boolean ead;
+	@SuppressWarnings("unused")
 	private double duracao, valor;
 	
 	public Curso (String tipo, boolean ead, double duracao) {
