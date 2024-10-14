@@ -146,6 +146,8 @@ public class Teste 5{
 		}else {
 			System.out.println("Reprovado");
 		}
+			
+		sc.close();
 	}
 }
 */

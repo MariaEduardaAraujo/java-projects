@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class CalculadoraTemperatura {
-	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		double cel = 0, far = 0, kel = 0, valor = 0;
 		String temp;
@@ -28,6 +27,8 @@ public class CalculadoraTemperatura {
 			cel = (valor - 32) * 5/9;
 			System.out.println("Temperatura em Celsius: " + Math.ceil(cel));
 		}
+
+		sc.close();
 	}
 
 }

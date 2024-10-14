@@ -1,9 +1,8 @@
-import java.util.*;
 //import java.util.stream.IntStream;
-import java.util.Random;
+import java.util.*;
 
 public class Aluno {
-    @SuppressWarnings({ "resource", "unused" })
+    @SuppressWarnings("unused")
 	public static void main(String args[]) {
       Scanner cad = new Scanner(System.in);
       Random num = new Random();
@@ -142,5 +141,7 @@ public class Aluno {
 		  	}
 		  
 		}while(opcao2 != 4);
+
+		cad.close();
     }
  }

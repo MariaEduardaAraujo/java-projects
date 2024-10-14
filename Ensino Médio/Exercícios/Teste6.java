@@ -8,7 +8,6 @@ Observação: os espaços em brancos não devem ser imprimidos.*/
 
 // Exercício 1 - Teste 6
 public class Teste6{
-	@SuppressWarnings("resource")
 	public static void main(String args[]){
 		Scanner sc = new Scanner(System.in);
 		String frase;
@@ -19,5 +18,6 @@ public class Teste6{
 		for (int i = 0; i <= frase.length(); i++) {
 			System.out.print(frase.charAt(i) + ", ");
 		}
+		sc.close();
 	} 
 }

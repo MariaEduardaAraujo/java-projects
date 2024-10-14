@@ -151,6 +151,8 @@ public class Teste3 {
 		litrosUs = distancia/12;
 		
 	System.out.println("Litros usados: " + litrosUs);
+	
+	sc.close();
 	}
 }
 */

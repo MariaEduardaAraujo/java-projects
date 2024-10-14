@@ -2,7 +2,6 @@ package Exercícios;
 import java.util.Scanner;
 
 public class Teste2 {
-	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		String nome;
 		int idade;
@@ -16,6 +15,8 @@ public class Teste2 {
 		System.out.print("Digite seu peso: ");
 		peso = sc.nextDouble();
 		System.out.println("Nome: "+ nome + ", Idade: " + idade + ", Peso: " + peso);
+
+		sc.close();
 	}
 
 }

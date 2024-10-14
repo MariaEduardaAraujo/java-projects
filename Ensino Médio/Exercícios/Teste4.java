@@ -170,6 +170,8 @@ public class Teste4{
 		}else {
 			System.out.println("Entrada inteira");
 		}
+		
+		sc.close();
 	}
 }
 */

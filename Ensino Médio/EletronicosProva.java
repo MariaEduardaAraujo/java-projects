@@ -7,7 +7,7 @@ import java.util.Scanner;
 **/
 
 public class EletronicosProva {
-	@SuppressWarnings({ "unused", "resource" })
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		String cod, nome, perg2;
 		int perg;
@@ -50,6 +50,6 @@ public class EletronicosProva {
 				System.out.println("Valor total: " + total);
 			}
 		}
-		
+		sc.close();
 	}
 }

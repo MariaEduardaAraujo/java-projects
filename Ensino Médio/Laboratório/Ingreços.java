@@ -8,7 +8,7 @@ import java.util.Scanner;
  **/
 
 public class Ingreços{
-	@SuppressWarnings({ "unused", "resource" })
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		int idade, qtdIngresso, qtdMeia;
 		double total = 0;
@@ -63,6 +63,8 @@ public class Ingreços{
 		else if((idade > 10 && idade < 65) && diaSemana.equals("domingo")) {
 			System.out.println("Valor do ingresso: R$ 30,00");
 		}
+
+		sc.close();
 		
 //		double qtdIngresso, qtdMeia, porcentagem;
 //		double total = 0;

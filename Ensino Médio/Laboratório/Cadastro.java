@@ -8,7 +8,6 @@ import java.util.Scanner;
  * 
  */
 public class Cadastro{
-	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		
 		String nome, sobrenome, usuario, senha;
@@ -31,6 +30,6 @@ public class Cadastro{
 		senha = nome.substring(0,1) + sobrenome.substring(0,1);
 		System.out.println("Senha: " + senha + nome.length() + data );
 		
-		
+		sc.close();
 	}
 }
