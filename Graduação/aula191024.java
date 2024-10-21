@@ -1,4 +1,4 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
 /*3) Calcule e mostre a média dos números pares entre 1 e 100, inclusive.
 
@@ -16,22 +16,27 @@ public class aula191024 {
     }
 }*/
 
-/*4) Leia 2 valores: X e Y. A seguir, calcule e mostre a soma dos números impares entre eles.*/
+/*4) Leia 2 valores: X e Y. A seguir, calcule e mostre a soma dos números impares entre eles.
 
 public class aula191024 {
     public static void main(String[] args) {
-        int x, y;
+        int x, y, soma = 0;
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Digite um valor: ");
+        System.out.print("Digite um valor: ");
         x = sc.nextInt();
-        System.out.println("Digite um outro valor: ");
+        System.out.print("Digite um outro valor: ");
         y = sc.nextInt();
 
-        if (x % 2 != 0 || y % 2 != 0) {
-            
+        for (int i = x; i < y; i++){
+            if (i % 2 != 0) {
+                soma = soma + i;
+            }
         }
+        
+        System.out.print("A soma dos números ímpares entre " + x + " e " + y);
+        System.out.println(" é: " + (soma-x));
         
         sc.close();
     }
-}
+}*/
