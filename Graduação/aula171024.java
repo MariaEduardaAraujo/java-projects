@@ -1,5 +1,67 @@
 //import java.util.Scanner;
 
+//Lista 02
+
+/*1) Ler 3 valores (A, B e C) representando as medidas dos lados de um triângulo e escrever se
+formam ou não um triângulo. OBS: para formar um triângulo, o valor de cada lado deve ser
+menor que a soma dos outros 2 lados.
+
+public class aula171024 {
+  public static void main(String[] args) {
+    int a, b, c;
+
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Digite três valores: ");
+    System.out.print("A: ");
+    a = sc.nextInt();
+    System.out.print("B: ");
+    b = sc.nextInt();
+    System.out.print("C: ");
+    c = sc.nextInt();
+
+    if (a < (b+c) && b < (a+c) && c < (b+a)) {
+      System.out.println("Formam um triângulo!");
+    }else{
+      System.out.println("Não formam um triângulo");
+    }
+    
+    sc.close();
+  }
+}*/
+
+/*2) Faça um algoritmo para ler um número que é um código de usuário. Caso este código seja
+diferente de um código armazenado internamente no algoritmo (igual a 1234) deve ser
+apresentada a mensagem ‘Usuário inválido!’. Caso o Código seja correto, deve ser lido outro
+valor que é a senha. Se esta senha estiver incorreta (a certa é 9999) deve ser mostrada a
+mensagem ‘senha incorreta’. Caso a senha esteja correta, deve ser mostrada a mensagem
+‘Acesso permitido’.
+
+public class aula171024 {
+  public static void main(String[] args) {
+    int cod = 1234, senha = 9999;
+    int user, novSenha;
+
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Digite o código: ");
+    user = sc.nextInt();
+
+    if (cod == user) {
+      System.out.print("Digite a senha: ");
+      novSenha = sc.nextInt();
+
+      if (senha == novSenha) {
+        System.out.println("Acesso permitido");
+      }else{
+        System.out.println("Senha incorreta");
+      }
+    }else{
+      System.out.println("Usuário inválido!");
+    }
+
+    sc.close();
+  }
+}*/
+
 /*3) Ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.
 
 public class aula171024 {
@@ -54,4 +116,25 @@ public class aula171024 {
       }
       sc.close();
     }
+}*/
+
+/*5) Faça um algoritmo que leia um número e mostre uma das mensagens: é múltiplo de 3 ou
+não é múltiplo de 3. 
+
+public class aula171024 {
+  public static void main(String[] args) {
+    int num;
+
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Digite um número: ");
+    num = sc.nextInt();
+
+    if (num % 3 == 0) {
+      System.out.println("É multiplo de 3");
+    }else{
+      System.out.println("Não é múltiplo de 3");
+    }
+
+    sc.close();
+  }
 }*/
