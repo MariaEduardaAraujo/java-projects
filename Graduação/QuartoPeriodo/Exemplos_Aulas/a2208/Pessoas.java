@@ -1,4 +1,4 @@
-package a220825;
+package a2208;
 
 public class Pessoas{
     public static void main(String[] args){

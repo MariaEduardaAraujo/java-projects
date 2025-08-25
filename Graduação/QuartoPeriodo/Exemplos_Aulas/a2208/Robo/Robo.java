@@ -1,4 +1,4 @@
-package a.Robo;
+package a2208.Robo;
 
 /* Um robô possui algumas características:
  * - Nome;
