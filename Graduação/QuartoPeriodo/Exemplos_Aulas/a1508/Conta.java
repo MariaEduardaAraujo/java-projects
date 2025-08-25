@@ -1,4 +1,4 @@
-package aula1508;
+package a1508;
 
 public class Conta {
     private int numConta;

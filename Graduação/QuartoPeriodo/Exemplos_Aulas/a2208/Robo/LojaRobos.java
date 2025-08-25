@@ -1,4 +1,4 @@
-package aula220825.Robo;
+package a220825.Robo;
 
 public class LojaRobos {
     public static void main(String[] args) {

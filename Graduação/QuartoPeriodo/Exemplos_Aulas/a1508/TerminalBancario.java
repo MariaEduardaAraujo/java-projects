@@ -1,4 +1,4 @@
-package aula1508;
+package a1508;
 
 public class TerminalBancario { //extends Conta
     public static void main(String[] args) {
