@@ -6,7 +6,7 @@ public class LojaRobos {
         Robo r2 = new Robo("KenjiBô", 35, 5);
 
         r1.andar();
-        //r2.andar();
+        r2.andar();
         r2.aumentarVelocidade(8);
 
         System.out.println("\n" + r1);

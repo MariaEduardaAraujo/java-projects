@@ -53,7 +53,8 @@ public class Robo {
     public void andar(){
         if (this.getCargaBateria() > 0){
             this.setVelocidade(2);
-            this.setCargaBateria(this.getCargaBateria() - 5);
+            System.out.println(getNome() + " está andando...");
+            //this.setCargaBateria(this.getCargaBateria() - 5);
         }
     }
     public void aumentarVelocidade(int v){
@@ -66,6 +67,11 @@ public class Robo {
             this.setVelocidade(this.getVelocidade() - v);
         }else{
             System.out.println("Velocidade não pode ser negativa");
+        }
+    }
+    public void carregarBateria(int cB){
+        if (this.getCargaBateria() < 100 && this.getCargaBateria() >= cB) {
+            this.setCargaBateria(this.getCargaBateria() + cB);
         }
     }
     @Override
