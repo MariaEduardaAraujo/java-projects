@@ -6,7 +6,7 @@ public class TerminalBancario { //extends Conta
     Conta c2 = new Conta();
     
     //c1.setSaldo(89.40);
-    c1.depositar(82);
+    c1.depositar(-82);
     c2.setSaldo(100);
 
     c2.sacar(52);

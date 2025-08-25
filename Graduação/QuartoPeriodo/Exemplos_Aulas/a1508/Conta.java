@@ -25,14 +25,25 @@ public class Conta {
         System.out.println("Número da conta: " + this.getNumConta());
     }
     public void depositar(double valor){
-        this.setSaldo(this.getSaldo() + valor);
+        if (validaTransacao(valor)){
+            this.setSaldo(this.getSaldo() + valor);
+        }else{
+            System.out.println("Depósito negado!");
+        }
     }
     public void sacar(double valor){
-        if (this.saldo < 0 || valor > this.saldo) {
-            System.out.println("Saque negado");
-        }else{
+        if (validaTransacao(valor) && this.saldo >= valor) {
             this.setSaldo(this.getSaldo() - valor);
             System.out.println("Saque realizado!");
+        }else{
+            System.out.println("Saque negado!");
+        }
+    }
+    public boolean validaTransacao(double valor){
+        if (valor <= 0){
+            return false;
+        }else{
+            return true;
         }
     }
 }
