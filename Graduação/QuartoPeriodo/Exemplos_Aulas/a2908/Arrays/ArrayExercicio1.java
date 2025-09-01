@@ -1,4 +1,4 @@
-package aula2908.Arrays;
+package a2908.Arrays;
 
 import java.util.Scanner;
 import java.util.Arrays;

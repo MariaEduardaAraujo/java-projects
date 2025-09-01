@@ -1,4 +1,4 @@
-package aula2908;
+package a2908;
 
 import java.util.Scanner;
 
