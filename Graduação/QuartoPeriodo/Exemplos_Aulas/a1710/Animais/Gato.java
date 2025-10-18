@@ -1,4 +1,4 @@
-package aula1710.Animais;
+package a1710.Animais;
 
 public class Gato extends Animal{
     public Gato(String n, int i) {

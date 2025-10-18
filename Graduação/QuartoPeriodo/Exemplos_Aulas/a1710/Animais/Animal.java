@@ -1,4 +1,4 @@
-package aula1710.Animais;
+package a1710.Animais;
 
 public abstract class Animal { 
     private String nome;

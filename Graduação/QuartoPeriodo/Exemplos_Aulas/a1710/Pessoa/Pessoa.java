@@ -1,4 +1,4 @@
-package aula1710.Pessoa;
+package a1710.Pessoa;
 
 public abstract class Pessoa {
     private String nome;

@@ -1,4 +1,4 @@
-package aula1710.Pessoa;
+package a1710.Pessoa;
 
 public class SistAcad {
     public static void main(String[] args) {

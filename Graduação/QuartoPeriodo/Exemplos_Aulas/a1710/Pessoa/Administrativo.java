@@ -1,4 +1,4 @@
-package aula1710.Pessoa;
+package a1710.Pessoa;
 
 public class Administrativo extends Servidor{
     NivelAcademico nivelAcademico;
