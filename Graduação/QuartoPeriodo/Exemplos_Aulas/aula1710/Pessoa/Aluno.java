@@ -1,4 +1,4 @@
-package a1710.Pessoa;
+package aula1710.Pessoa;
 
 public class Aluno extends Pessoa{
     

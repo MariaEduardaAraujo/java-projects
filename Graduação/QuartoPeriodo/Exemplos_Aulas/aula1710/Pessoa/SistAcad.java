@@ -1,13 +1,15 @@
-package a1710.Pessoa;
+package aula1710.Pessoa;
 
 public class SistAcad {
     public static void main(String[] args) {
-        Professor p1 = new Professor(2);
         try {
+            Professor p1 = new Professor(3);
             p1.calcularSalario();
-        } catch (Exception e) {
+            System.out.println(p1.getSalario());
+        }
+        catch (Exception e){
             e.printStackTrace();
         }
-        System.out.println(p1.getSalario());
+        
     }
 }

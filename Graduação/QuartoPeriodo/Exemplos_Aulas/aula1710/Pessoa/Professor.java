@@ -1,4 +1,4 @@
-package a1710.Pessoa;
+package aula1710.Pessoa;
 
 public class Professor extends Servidor{
     private String[] disciplinas;
@@ -12,15 +12,5 @@ public class Professor extends Servidor{
         if(super.nivelAcademico.equals(NivelAcademico.GRADUACAO)){
             
         }
-    }
-
-    public static void main(String[] args) {
-        Professor p1 = new Professor(2);
-        try {
-            p1.calcularSalario();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        System.out.println(p1.getSalario());
     }
 }

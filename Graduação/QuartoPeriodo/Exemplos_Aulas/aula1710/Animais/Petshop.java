@@ -1,8 +1,8 @@
-package a1710.Animais;
+package aula1710.Animais;
 
-import a1710.Animais.Animal;
-import a1710.Animais.Cachorro;
-import a1710.Animais.Gato;
+import aula1710.Animais.Animal;
+import aula1710.Animais.Cachorro;
+import aula1710.Animais.Gato;
 
 public class Petshop {
     public void atender(Animal an){

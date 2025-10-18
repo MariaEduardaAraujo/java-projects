@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Petshop",
+            "request": "launch",
+            "mainClass": "aula1710.Animais.Petshop",
+            "projectName": "java-projects_d437053f"
+        },
+        {
+            "type": "java",
+            "name": "SistAcad",
+            "request": "launch",
+            "mainClass": "aula1710.Pessoa.SistAcad",
+            "projectName": "java-projects_d437053f"
+        }
+    ]
+}

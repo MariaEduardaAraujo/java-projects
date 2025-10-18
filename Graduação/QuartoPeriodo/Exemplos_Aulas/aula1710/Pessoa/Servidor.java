@@ -1,4 +1,4 @@
-package a1710.Pessoa;
+package aula1710.Pessoa;
 
 public abstract class Servidor extends Pessoa{
     private String matriculaSiape;
