@@ -11,7 +11,7 @@ public class SistemaInterno {
     public static void main(String[] args) {
         SistemaInterno i1 = new SistemaInterno();
 
-        Cliente c1 = new Cliente();
+        //Cliente c1 = new Cliente();
         Gerente g1 = new Gerente();
         Vendedor v1 = new Vendedor();
 
