@@ -1,7 +1,7 @@
 package a1710.Pessoa;
 
 public class Professor extends Servidor{
-    private String[] disciplinas;
+    //private String[] disciplinas;
     
     public Professor(int nivelAcad) throws Exception{
         super(nivelAcad);
