@@ -1,10 +1,10 @@
 package a0310.Faculdade;
 
-import java.util.ArrayList;
+//import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SistAcademico {
-    private ArrayList<Professor> professores = new ArrayList<Professor>();
+    //private ArrayList<Professor> professores = new ArrayList<Professor>();
 
     public void cadastrarProfessor(){
         Professor prof = new Professor();
